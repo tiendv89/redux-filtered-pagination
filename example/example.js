@@ -1,3 +1,3 @@
 import {Pagination} from '../index';
 
-console.log(Pagination.types);
+console.log(Pagination.pagination_types);

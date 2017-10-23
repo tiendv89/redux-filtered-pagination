@@ -1,6 +1,6 @@
 {
   "name": "redux-filtered-pagination",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "Simple module based on redux/redux-saga which supports call to paginated api, and filter feature",
   "main": "index.js",
   "scripts": {
