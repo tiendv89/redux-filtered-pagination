@@ -1,3 +1,3 @@
-var lib = require('../index');
+import {Pagination} from '../index';
 
-console.log(lib.Filter.filter_types.ONE_CHOICE);
+console.log(Pagination.types);
