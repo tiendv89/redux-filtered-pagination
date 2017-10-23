@@ -1,9 +1,9 @@
 
 module.exports = {
-	get filter() {
+	get Filter() {
 		return require('./lib/filter').default;
 	},
-	get pagination() {
+	get Pagination() {
 		return require('./lib/pagination').default;
 	}
 };
