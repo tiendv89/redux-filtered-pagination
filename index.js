@@ -5,5 +5,8 @@ module.exports = {
 	},
 	get Pagination() {
 		return require('./lib/pagination').default;
+	},
+	get createPagination() {
+		return require('./lib/pagination').createPagination
 	}
 };
