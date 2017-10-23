@@ -1,0 +1,35 @@
+{
+  "name": "redux-filtered-pagination",
+  "version": "0.1.0",
+  "description": "Simple module based on redux/redux-saga which supports call to paginated api, and filter feature",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --reporter spec",
+    "build": "rimraf dist/ && babel ./ --out-dir dist/ --ignore ./node_modules,./.babelrc,./package.json,./npm-debug.log --copy-files",
+    "start": "npm run build && node dist/example/example.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tiendv89/redux-filtered-pagination.git"
+  },
+  "keywords": [
+    "pagination"
+  ],
+  "author": "Dinh Van Tien <tiendv.52@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tiendv89/redux-filtered-pagination/issues"
+  },
+  "homepage": "https://github.com/tiendv89/redux-filtered-pagination#readme",
+  "dependencies": {
+    "redux": "^3.7.2"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "rimraf": "^2.6.2"
+  }
+}
